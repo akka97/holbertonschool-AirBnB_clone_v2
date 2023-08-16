@@ -21,6 +21,7 @@ def str_txt(text):
     result = f"C {formatted_text}"
     return result
 
+
 @app.route('/python/')
 @app.route('/python/<text>', strict_slashes=False)
 def pyt_txt(text='is cool'):
